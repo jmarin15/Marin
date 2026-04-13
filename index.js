@@ -29,3 +29,34 @@ newTask("Do Laundry"); // task 1
 logTaskState(0); // Clean Cat Litter has not been completed
 completeTask(0);
 logTaskState(0); // Clean Cat Litter has been completed
+
+
+// Código añadido para generar problemas de calidad
+
+function funcionMala() {
+  var a = 1;
+  var b = 2;
+  var c = 3;
+  var d = 4;
+  var e = 5;
+  var f = 6;
+  var g = 7;
+  var h = 8;
+  var i = 9;
+  var j = 10;
+  var k = 11;
+  var l = 12;
+  return a;
+}
+
+// Variable insegura
+var password = "1234";
+
+// Código duplicado (malo para mantenibilidad)
+function duplicado1() {
+  console.log("Hola");
+}
+
+function duplicado2() {
+  console.log("Hola");
+}
